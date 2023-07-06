@@ -27,16 +27,16 @@ const Slider = () => {
         style={{ transform: `translateX(-${currentPosition * 100}%)` }}
       >
         <div className="carousel-item">
-          <img src={image1} alt="portachiavi 1" width="370" height="296" />
+          <img src={image1} alt="portachiavi 1" />
         </div>
         <div className="carousel-item">
-          <img src={image2} alt="automezzo 2" width="370" height="296" />
+          <img src={image2} alt="automezzo 2"/>
         </div>
         <div className="carousel-item">
-          <img src={image3} alt="maglietta 3" width="370" height="296" />
+          <img src={image3} alt="maglietta 3" />
         </div>
         <div className="carousel-item">
-          <img src={image4} alt="cappellino 4" width="370" height="296" />
+          <img src={image4} alt="cappellino 4" />
         </div>
       </div>
     </div>

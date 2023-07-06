@@ -49,36 +49,33 @@ body {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 640px){
+.container {
+    max-width: 100%;
+}
+}
+
 @media (min-width: 768px) {
     .container {
       max-width: 100%;
     }
   }
   
-  @media (min-width: 640px) {
-    .container {
-      max-width: 100%;
-    }
-  }
-  
-  .container {
-    width: 100%;
-  }
-  
-  @media (min-width: 768px) {
-    .container {
-      max-width: 100%;
-    }
-  }
-  
-  @media (min-width: 768px) {
-    .container {
-      max-width: 100%;
-    }
-  }
-  
-  @media (min-width: 640px) {
-    .container {
-      max-width: 100%;
-    }
-  }
+
+

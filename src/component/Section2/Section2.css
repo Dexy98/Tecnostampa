@@ -28,3 +28,14 @@ img.lavori {
     object-fit: cover;
 
 }
+
+@media screen and ( min-width: 768px ) {
+    .titolo {
+        color: #ffffff;
+        text-align: center;
+        font: bold 36px "Montserrat", sans-serif;
+    
+    
+    }
+
+}

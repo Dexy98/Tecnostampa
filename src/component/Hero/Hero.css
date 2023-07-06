@@ -21,7 +21,8 @@
 }
 
 .titolo-home-page {
-    color: #ffffff;
+    color: #FEEE00;
+    opacity: 0.8;
     text-align: center;
     font: 700 36px "Montserrat", sans-serif;
     position: absolute;
