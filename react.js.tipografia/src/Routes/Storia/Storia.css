@@ -1,0 +1,37 @@
+.hero {
+    width: 100%;
+    height: 100vh;
+    margin-top: 67px;
+    padding: 0 50px;
+}
+
+h1.titolo {
+    color: rgba(254, 238, 0, 0.80);
+    text-align: center;
+    font-size: 2.8125rem;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.28125rem;
+
+}
+
+.article {
+    width: 100%;
+    height: auto;
+}
+
+.article_testo {
+    color: #FFF;
+    font-size: 14px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0.07px;
+}
+.mappa{
+    width: 100%;
+    
+}

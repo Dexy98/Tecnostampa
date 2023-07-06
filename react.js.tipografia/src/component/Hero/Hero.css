@@ -1,0 +1,56 @@
+.section-1,
+.section-1 * {
+    box-sizing: border-box;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+
+
+
+.esterno-1 {
+    width: 100%;
+    margin-top: 67px;
+    opacity: 0.5;
+    position: relative;
+    object-fit: cover;
+
+}
+
+.titolo-home-page {
+    color: #ffffff;
+    text-align: center;
+    font: 700 36px "Montserrat", sans-serif;
+    position: absolute;
+    width: 263px;
+    height: 83px;
+
+}
+
+.bottom {
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    margin-top: 13rem;
+}
+
+.rectangle-1 {
+    background: #e3007c;
+    border-radius: 50px;
+    width: 100px;
+    height: 40px;
+    position: absolute;
+
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.contattaci {
+    color: #ffffff;
+    text-align: center;
+    font: 700 12px "Montserrat", sans-serif;
+    position: relative;
+    padding: 0 8px;
+}

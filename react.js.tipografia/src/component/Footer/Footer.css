@@ -1,0 +1,23 @@
+.footer{
+    height: 200px;
+    width: 100%;
+    background-color: var(--secondary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+
+}
+
+.testo_footer h3{
+    color: white;
+    width: 60%;
+    font-size: 12px;
+    font-style: normal;
+    text-align: left;
+    letter-spacing: 2px;
+}
+.social {
+    font-size: 1.5rem;
+    color: #4676EE;
+}
