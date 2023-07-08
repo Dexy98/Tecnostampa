@@ -31,13 +31,15 @@
     top: 110px;
     left: 70px;
 }
-.goccia_servizi{
+
+.goccia_servizi {
     position: absolute;
     top: 250px;
     left: 80px;
-    
+
 }
-.goccia_lista li{
+
+.goccia_lista li {
     color: #FFF;
     font-family: Montserrat;
     font-size: 14px;
@@ -46,13 +48,56 @@
     letter-spacing: 0.7px;
     list-style: circle;
 }
-@media screen and ( min-width: 768px ) {
-.titolo {
-    color: #FEEE00;
-    opacity: 0.8;
-    text-align: center;
-    font: bold 36px "Montserrat", sans-serif;
+
+
+@media screen and (max-width: 320px) {
+    .titolo {
+        color: #FEEE00;
+        text-align: center;
+        font: bold 26px "Montserrat", sans-serif;
+    }
+
+    .goccia img {
+
+        width: 100%;
+        height: auto;
+        opacity: 0.25;
+
+    }
+
+    .goccia_servizi {
+        position: absolute;
+        top: 180px;
+        left: 70px;
+
+    }
+
+    .goccia_lista li {
+
+        font-size: 10px;
+
+    }
+
 
 
 }
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) {
+    .titolo {
+        color: #FEEE00;
+        opacity: 0.8;
+        text-align: center;
+        font: bold 36px "Montserrat", sans-serif;
+
+
+    }
 }

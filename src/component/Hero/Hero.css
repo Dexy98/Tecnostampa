@@ -55,3 +55,17 @@
     position: relative;
     padding: 0 8px;
 }
+
+
+
+
+@media screen and (max-width: 320px) {
+    .titolo-home-page {
+        font-size: 26px;
+    }
+
+    .bottom {
+        margin-top: 10rem;
+    }
+
+}
