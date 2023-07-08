@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/tecnostampa/static/css/main.0b92990b.css",
-    "main.js": "/tecnostampa/static/js/main.5a099f17.js",
+    "main.css": "/tecnostampa/static/css/main.e3c69285.css",
+    "main.js": "/tecnostampa/static/js/main.5bf3489b.js",
     "static/media/goccia.png": "/tecnostampa/static/media/goccia.7c991521f3af099c66ad.png",
     "static/media/1.png": "/tecnostampa/static/media/1.e424207a6db0443d1155.png",
     "static/media/2.png": "/tecnostampa/static/media/2.8cc81332f5d0b9d6b105.png",
@@ -10,11 +10,11 @@
     "static/media/logo-singolo.png": "/tecnostampa/static/media/logo-singolo.9c577843aa5576ed9ef8.png",
     "static/media/esterno.jpg": "/tecnostampa/static/media/esterno.46a163a9e7a9e7a01543.jpg",
     "index.html": "/tecnostampa/index.html",
-    "main.0b92990b.css.map": "/tecnostampa/static/css/main.0b92990b.css.map",
-    "main.5a099f17.js.map": "/tecnostampa/static/js/main.5a099f17.js.map"
+    "main.e3c69285.css.map": "/tecnostampa/static/css/main.e3c69285.css.map",
+    "main.5bf3489b.js.map": "/tecnostampa/static/js/main.5bf3489b.js.map"
   },
   "entrypoints": [
-    "static/css/main.0b92990b.css",
-    "static/js/main.5a099f17.js"
+    "static/css/main.e3c69285.css",
+    "static/js/main.5bf3489b.js"
   ]
 }
