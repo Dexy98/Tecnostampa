@@ -11,7 +11,7 @@ const handleAddToCart = (productId) => {
 
 
 
-const Servizi = () => {
+const Shop = () => {
   const products = [
     {
       id: 1,
@@ -41,4 +41,4 @@ const Servizi = () => {
   )
 }
 
-export default Servizi
+export default Shop
