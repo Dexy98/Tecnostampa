@@ -24,7 +24,7 @@
 
 
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 400px) {
     .testo_footer h3{
         width: 80%;
         font-size: 10px;
