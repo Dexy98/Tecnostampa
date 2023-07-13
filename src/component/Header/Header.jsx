@@ -13,7 +13,7 @@ const Header = () => {
     <>
       <header className="header z-50 shadow-2xl" id="home">
         <div className="logo">
-          <a href="/Home">
+          <a href="/">
             <img src={logo} alt="logo" />
           </a>
         </div>
@@ -27,7 +27,7 @@ const Header = () => {
       <nav className={click ? "nav active" : "nav"}>
         <ul className="lista">
           <li>
-            <Link to="/Home" onClick={handleClick}>
+            <Link to="/" onClick={handleClick}>
               HOME
             </Link>
           </li>
