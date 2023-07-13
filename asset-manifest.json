@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/tecnostampa/static/css/main.c5add051.css",
-    "main.js": "/tecnostampa/static/js/main.af50e2cc.js",
+    "main.js": "/tecnostampa/static/js/main.8a503bbe.js",
     "static/media/goccia.png": "/tecnostampa/static/media/goccia.7c991521f3af099c66ad.png",
     "static/media/1.png": "/tecnostampa/static/media/1.e424207a6db0443d1155.png",
     "static/media/2.png": "/tecnostampa/static/media/2.8cc81332f5d0b9d6b105.png",
@@ -13,10 +13,10 @@
     "static/media/RILEGATURA.jpg": "/tecnostampa/static/media/RILEGATURA.a7333d4dbcd60c255baf.jpg",
     "index.html": "/tecnostampa/index.html",
     "main.c5add051.css.map": "/tecnostampa/static/css/main.c5add051.css.map",
-    "main.af50e2cc.js.map": "/tecnostampa/static/js/main.af50e2cc.js.map"
+    "main.8a503bbe.js.map": "/tecnostampa/static/js/main.8a503bbe.js.map"
   },
   "entrypoints": [
     "static/css/main.c5add051.css",
-    "static/js/main.af50e2cc.js"
+    "static/js/main.8a503bbe.js"
   ]
 }
