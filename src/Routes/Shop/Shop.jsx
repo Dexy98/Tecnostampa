@@ -1,40 +1,25 @@
-import React from 'react'
-import './Shop.css'
+import React from 'react';
+import './Shop.css';
 
 
 
  
-const handleAddToCart = (productId) => {
+const handleAddToCart = (itemId) => {
   // Logica per aggiungere il prodotto al carrello
-  console.log(`Aggiungi al carrello: ${productId}`);
+  console.log(`Aggiungi al carrello: ${itemId}`);
 };
 
 
 
-const Shop = () => {
-  const products = [
-    {
-      id: 1,
-      name: 'Prodotto 1',
-      price: 9.99,
-      image: 'path/to/image1.jpg'
-    },
-    {
-      id: 2,
-      name: 'Prodotto 2',
-      price: 14.99,
-      image: 'path/to/image2.jpg'
-    },
-    // Aggiungi altri prodotti qui...
-  ];
+const Shop = (props) => {
   return (
     <div className="shop-container">
-      {products.map((product) => (
-        <div key={product.id} className="card">
-          <img src={product.image} alt={product.name} />
-          <h3>{product.name}</h3>
-          <p>Prezzo: ${product.price}</p>
-          <button onClick={() => handleAddToCart(product.id)}>Aggiungi al carrello</button>
+      {props.data.map(item => (
+        <div key={item.id} className="card">
+          <img src={item.image} alt={item.name} />
+          <h3 className=' text-white text-lg shadow '>{item.name}</h3>
+          <p className=' text-white text-sm '>Prezzo: € {item.price}</p>
+          <button className=' bottom-10 p-4 bg-[#e3007c] border-spacing-4 border-red rounded-[18px] shadow' onClick={() => handleAddToCart(item.id)}>Aggiungi al carrello</button>
         </div>
       ))}
     </div>
